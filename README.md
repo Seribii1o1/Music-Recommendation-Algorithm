@@ -1,18 +1,16 @@
-# Music Recommendation Algorithm
+# Music Recommendation Algorithm (Unsupervised)
 
 <u>Background</u>
 
-I analyzed a dataset of songs, their lyrical features, and their lyrical content in order to discover clusters. 
-
-Within this project, I looked at a real dataset of songs from 1950 to 2011. 
+I analyzed a real dataset of songs(1950 to 2011), their lyrical features, and their lyrical content in order to discover clusters which will then be used to recommend music for a hypothetical user.
 
 This dataset contains a mix of lyrical and continuous variables pulled from a 2020 research paper titled [Music Dataset: Lyrics and Metadata from 1950 to 2019](https://data.mendeley.com/datasets/3t9vbwxgr5/3).
 
-Within this project, I created a comprehensive machine learning pipeline that satisfies the patterned steps of a classic machine learning project. This entailed beginning with hypothesis formulation through EDA, completing data cleaning, pre-processing, & dimensionality analysis, and concluding with model generation, sample prediction, and a report.
+I created a comprehensive machine learning pipeline that satisfies the patterned steps of a classic machine learning project. 
 
 <u>Project Content</u>
 
-1. Initial EDA: notebook with univariate, bivariate, multivariate exploratory analysis, and relevant graphs
+1. Hypothesis formulation with initial EDA: notebook with univariate, bivariate, multivariate exploratory analysis, and relevant graphs
 
 2. Data cleaning, pre-processing, and dimensionality reduction: notebook for cleaning and wrangling dataset. Might include dropping null values, removing unnecessary columns, removing outliers, and potentially fixing incorrectly formatted data. Dropped columns that had strong correlation and linearity.
 
