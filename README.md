@@ -1,2 +1,50 @@
 # Music Recommendation Algorithm
- Music Recommendation Algorithm
+
+<u>Background</u>
+
+I analyzed a dataset of songs, their lyrical features, and their lyrical content in order to discover clusters. 
+
+Within this project, I looked at a real dataset of songs from 1950 to 2011. 
+
+This dataset contains a mix of lyrical and continuous variables pulled from a 2020 research paper titled [Music Dataset: Lyrics and Metadata from 1950 to 2019](https://data.mendeley.com/datasets/3t9vbwxgr5/3).
+
+Within this project, I created a comprehensive machine learning pipeline that satisfies the patterned steps of a classic machine learning project. This entailed beginning with hypothesis formulation through EDA, completing data cleaning, pre-processing, & dimensionality analysis, and concluding with model generation, sample prediction, and a report.
+
+<u>Project Content</u>
+
+1. Initial EDA: notebook with univariate, bivariate, multivariate exploratory analysis, and relevant graphs
+
+2. Data cleaning, pre-processing, and dimensionality reduction: notebook for cleaning and wrangling dataset. Might include dropping null values, removing unnecessary columns, removing outliers, and potentially fixing incorrectly formatted data. Dropped columns that had strong correlation and linearity.
+
+(note: for now it would be best to drop the “lyrics” column).
+Save this dataframe as a new csv file to be used in the next step.
+
+3. Model creation, hyperparameter search, and model evaluation
+Once you have cleaned and reduced this dataset, we will then create a notebook where we will implement a KMeans Clustering or any other clustering algorithm of your choice on your training dataset.
+After initial training, evaluate the best number of clusters using one of the cluster identification techniques.
+After generating your clusters for each sample in your training dataset, save these cluster-labels as a new column in your dataframe and save this dataframe for further analysis.
+
+4. New Sample Prediction
+Finally, apply your trained machine learning algorithm on the following test dataset, in order to generate cluster labels for each new sample.
+After generating these clusters, save these labels as a new column in your test dataset and save this subsequent dataframe for further analysis.
+
+5. Report
+To conclude this project, we should answer the following 5 questions in a separate document attached to your project:
+
+Which insights did you gain from your EDA? Were any columns highly correlated? If so, name them.
+
+How did you determine which columns to drop or keep? If your EDA informed this process, explain which insights you used to determine which columns were not needed. 
+
+What was the optimal number of clusters in your cluster model? Explain how you determined this value.
+
+Take a look at the respective songs that fell into your clusters. Describe these clusters in human terms to the best of your ability using the columns in your dataset (for example high-gospel songs, low-gospel songs, etc). Feel free to listen to these songs as well to get a sense of what nuance your algorithm picked up on.
+
+Take a look at the clusters that your algorithm assigned to your test samples. Based on these clusters, which songs would you recommend to this user?
+
+6. Lyrical Analysis If you’ve completed the previous 5 steps and would like an additional sentiment analysis challenge, complete the following steps
+For this bonus challenge, you will create an additional notebook that contains a Word2Vec model to analyze the lyrical content of our “lyrics” column. Look back to previous Word2Vec models to get an ideal on how this will be done!
+After training a Word2Vec model, get a list of vectors of the words used in this dataset, and reduce these vectors down to two components using PCA analysis.
+Visualize your lyrics and their PCA components using a scatter-plot to note the lyrical content of your dataset.
+
+
+
