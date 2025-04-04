@@ -2,7 +2,7 @@
 
 <u>Background</u>
 
-I analyzed a real dataset of songs(1950 to 2011), their lyrical features, and their lyrical content in order to discover clusters which will then be used to recommend music for a hypothetical user.
+I analyzed a dataset of songs(1950 to 2011), their lyrical features, and their lyrical content in order to discover clusters which will then be used to recommend music for a hypothetical user.
 
 This dataset contains a mix of lyrical and continuous variables pulled from a 2020 research paper titled [Music Dataset: Lyrics and Metadata from 1950 to 2019](https://data.mendeley.com/datasets/3t9vbwxgr5/3).
 
