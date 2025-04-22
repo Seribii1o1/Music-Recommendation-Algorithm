@@ -15,6 +15,8 @@ I added distinct genre columns and dropped the following six columns:
 
 3. What was the optimal number of clusters in your cluster model? Explain how you determined this value.
 
+The optimal number was 6 according to the elbow and silhouette methods. That is where the elbow "stopped" and the highest silhouette score.
+
 4. Take a look at the respective songs that fell into your clusters. Describe these clusters in human terms to the best of your ability using the columns in your dataset (for example high-gospel songs, low-gospel songs, etc). Feel free to listen to these songs as well to get a sense of what nuance your algorithm picked up on.
 
 5. Take a look at the clusters that your algorithm assigned to your test samples. Based on these clusters, which songs would you recommend to this user?
