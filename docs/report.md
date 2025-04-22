@@ -6,12 +6,12 @@ Age and release_date are highly correlated. There is also a high correlation bet
 
 2. How did you determine which columns to drop or keep? If your EDA informed this process, explain which insights you used to determine which columns were not needed. 
 
-I dropped the following four columns:
+I added distinct genre columns and dropped the following six columns:
 -Dropped Unnamed:0 (not in original list of variables)
 -Based on the first heatmap in the EDA, I removed 'release_date' to reduce multicollinearity
 -Removed lyrics for later analysis
 -Dropped track_name and artist_name due to high amount of unique values
--Removed topic to reduce multicollinearity 
+-Based on scaling and more heatmaps, I removed 'topic' to reduce multicollinearity 
 
 3. What was the optimal number of clusters in your cluster model? Explain how you determined this value.
 
