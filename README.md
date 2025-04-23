@@ -39,7 +39,7 @@ To conclude this project, I answered the following 5 questions in the report fil
 
 5. Take a look at the clusters that your algorithm assigned to your test samples. Based on these clusters, which songs would you recommend to this user?
 
-6. Lyrical Sentiment Analysis
+6. [Lyrical Sentiment Analysis](code/Word2Vec.ipynb)
 
 I created an additional notebook that contains a Word2Vec model to analyze the lyrical content of our “lyrics” column. 
 After training a Word2Vec model, I got a list of vectors of the words used in this dataset, and reduce these vectors down to two components using PCA analysis.
