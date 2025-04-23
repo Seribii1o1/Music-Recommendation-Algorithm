@@ -10,24 +10,22 @@ I created a comprehensive machine learning pipeline that satisfies the patterned
 
 <u>Project Content</u>
 
-1. Hypothesis formulation with initial EDA: notebook with univariate, bivariate, multivariate exploratory analysis, and relevant graphs
+1. [Hypothesis formulation with initial EDA](/Users/sa26/Documents/GitHub/Music-Recommendation-Algorithm/code/EDA.ipynb): notebook with univariate, bivariate, multivariate exploratory analysis, and relevant graphs
 
-2. Data cleaning, pre-processing, and dimensionality reduction: notebook for cleaning and wrangling dataset. Might include dropping null values, removing unnecessary columns, removing outliers, and potentially fixing incorrectly formatted data. Dropped columns that had strong correlation and linearity.
+2. [Data cleaning, pre-processing, and dimensionality reduction](/Users/sa26/Documents/GitHub/Music-Recommendation-Algorithm/code/transform.ipynb):
+notebook for cleaning and wrangling dataset. Might include dropping null values, removing unnecessary columns, removing outliers, and potentially fixing incorrectly formatted data. Dropped columns that had strong correlation and linearity. I saved this dataframe as a new csv file to be used in the next step.
 
-(note: for now it would be best to drop the “lyrics” column).
-I saved this dataframe as a new csv file to be used in the next step.
-
-3. Model creation, hyperparameter search, and model evaluation
+3. [Model creation, hyperparameter search, and model evaluation](/Users/sa26/Documents/GitHub/Music-Recommendation-Algorithm/code/model.ipynb)
 Once you have cleaned and reduced this dataset, we will then create a notebook where we will implement a KMeans Clustering or any other clustering algorithm of your choice on your training dataset.
 After initial training, evaluate the best number of clusters using one of the cluster identification techniques.
 After generating the clusters for each sample in the training dataset, save these cluster-labels as a new column in your dataframe and save this dataframe for further analysis.
 
-4. New Sample Prediction
+4. [New Sample Prediction](/Users/sa26/Documents/GitHub/Music-Recommendation-Algorithm/code/model.ipynb)
 
 Finally, I applied the trained machine learning algorithm on the following test dataset, in order to generate cluster labels for each new sample.
-After generating these clusters, I saved these labels as a new column in the test dataset and save this subsequent dataframe for further analysis.
+After generating these clusters, I saved these labels as a new column in the test dataset and saved this subsequent dataframe for further analysis.
 
-5. Report
+5. [Report](/Users/sa26/Documents/GitHub/Music-Recommendation-Algorithm/docs/report.md)
 
 To conclude this project, I answered the following 5 questions in the report file:
 
