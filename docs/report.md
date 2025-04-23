@@ -1,10 +1,14 @@
 1. Which insights did you gain from your EDA? Were any columns highly correlated? If so, name them.
 
+![Multivariate](image-5.png)
+
 Release date average is 1990, median is 1991, with most songs in 1975-2007 range. Average song is 73 words, median is 63, with most songs in between 42-93 words. Pop genre is the most popular, with hip hop as the least frequent. Sadness, violence, and word/life are the top three topics, with feelings as the lowest. 
 
 Age and release_date are highly correlated. There is also a high correlation between hip hop genre and obscene topics.
 
 2. How did you determine which columns to drop or keep? If your EDA informed this process, explain which insights you used to determine which columns were not needed. 
+
+![Correlation]](image-4.png)
 
 I added distinct genre columns and dropped the following six columns:
 -Dropped Unnamed:0 (not in original list of variables)
